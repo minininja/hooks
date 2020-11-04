@@ -1,0 +1,32 @@
+{
+  "name": "job-web-hooks",
+  "version": "0.0.1",
+  "description": "...",
+  "main": "bin/app.js",
+  "scripts": {
+    "start": "node bin/app.js",
+    "try-me": "curl http://localhost:3000/main",
+    "build": "tsc",
+    "test": "tap"
+  },
+  "keywords": [
+    "typescript",
+    "fastify"
+  ],
+  "author": "Andrey Chalkin <L2jLiga@gmail.com> (https://github.com/L2jLiga)",
+  "license": "MIT",
+  "dependencies": {
+    "@kubernetes/client-node": "^0.12.3",
+    "fastify": "^2.11.0",
+    "fastify-decorators": "^2.0.0-1",
+    "json-bigint": "^1.0.0",
+    "reflect-metadata": "^0.1.13",
+    "source-map-support": "^0.5.16",
+    "tmp": "^0.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.24",
+    "tap": "^14.10.5",
+    "typescript": "^3.7.4"
+  }
+}
